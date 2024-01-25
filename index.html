@@ -115,15 +115,14 @@
 	    .section-main{
 	        width:300%;
 	    }
-		.section-end{
-			width:300%;
-		}
-	    .logo{
-        	animation:initial;
-        	animation-timeline:initial;
-        	animation-range-start:initial;
-        	animation-range-end:initial;
+	    .section-end{
+		    width:300%;
 	    }
+	    @keyframes logo-anim {
+	        to{
+	            opacity: 0;
+	        }
+    	    }
     }
     .side-panel h1{
         padding-top: 3rem;
@@ -253,7 +252,6 @@
         animation-timeline: scroll();
         animation-range-start: cover;
         animation-range-end: cover 100px;
-
     }
     @keyframes logo-anim {
         to{
