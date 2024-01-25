@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>KSEPSP+Update</title>
     <link rel="shortcut icon" href="webpage/short-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
     *{
@@ -94,6 +95,24 @@
         transition: background-color .5s;
         z-index:1;
         height: 100%;
+    }
+    @media (max-width: 1120px){
+	    .side-panel{
+		    display:none;
+	    }
+	    .search-input{
+		    display:none;
+	    }
+	    .section-logo{
+		    width:300%;
+		    padding: 5rem 0 5rem;
+	    }
+	    .section-instructions{
+		    width:300%;
+	    }
+	    .section-main{
+		    width:300%;
+	    }
     }
     .side-panel h1{
         padding-top: 3rem;
@@ -8528,7 +8547,7 @@
                     break;
             }
         }
-		let offset = 0;
+	let offset = 0;
         let offcoord = 0;
         window.addEventListener('scroll', function(){
             const download = document.getElementById("download");
@@ -8539,17 +8558,19 @@
 			offcoord = Math.min(Math.max(offcoord + window.pageYOffset - offset, 0), 48);
             header.style.setProperty("--offset", -offcoord + "px");
 
-			if(window.pageYOffset > 2500){
-                download.style.display = "none";
-            }
-            else if(window.pageYOffset > 2100){
-                download.style = "opacity: 0%; display:inherit;";
-            }
-            else{
-                download.style = "opacity: 100%; display:inherit;";
-            }
+	if (document.documentElement.clientWidth > 1120) {
+		if(window.pageYOffset > 2500){
+			download.style.display = "none";
+		}
+		else if(window.pageYOffset > 2100){
+			download.style = "opacity: 0%; display:inherit;";
+		}
+		else{
+			download.style = "opacity: 100%; display:inherit;";
+		}
+	}
 
-			offset = window.pageYOffset;
+	offset = window.pageYOffset;
         });
         function search(){
             input = document.getElementById("search").value;
