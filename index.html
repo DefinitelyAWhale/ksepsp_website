@@ -1134,7 +1134,7 @@
 				</tr>
 				<tr>
 					<td><img src="assets/minecraft/optifine/cit/9_0/items/weapons/sword/violin_bow/violin_bow.png"></td>
-					<td><span class="ru">Смычок</span><span class="en">Bow</span></td>
+					<td><span class="ru">Смычок</span><span class="en">Violin Bow</span></td>
 					<td><span class="ru">Любой меч</span><span class="en">Any Sword</span></td>
 					<td></td>
 				</tr>
@@ -1182,8 +1182,8 @@
 					<td></td>
 				</tr>
 				<tr>
-					<td><img src="webpage/model_icon/fos_main.png"></td>
-					<td><span class="ru">Стальные кулаки</span><span class="en">Iron Fists</span></td>
+					<td><img src="webpage/model_icon/fist_of_steel.png"></td>
+					<td><span class="ru">Стальной кулак</span><span class="en">Fist Of Steel</span></td>
 					<td><span class="ru">Любой меч</span><span class="en">Any Sword</span></td>
 					<td></td>
 				</tr>
@@ -8554,31 +8554,31 @@
                     break;
             }
         }
-	let offset = 0;
-        let offcoord = 0;
-        window.addEventListener('scroll', function(){
-            const download = document.getElementById("download");
-            const header = document.getElementById("header");
-            const titles = document.getElementById("titles");
-			let direction = offset <= window.pageYOffset;
+	//let offset = 0;
+        //let offcoord = 0;
+        //window.addEventListener('scroll', function(){
+        //    const download = document.getElementById("download");
+        //    const header = document.getElementById("header");
+        //    const titles = document.getElementById("titles");
+	//		let direction = offset <= window.pageYOffset;
 
-			offcoord = Math.min(Math.max(offcoord + window.pageYOffset - offset, 0), 48);
-            header.style.setProperty("--offset", -offcoord + "px");
+	//		offcoord = Math.min(Math.max(offcoord + window.pageYOffset - offset, 0), 48);
+        //   header.style.setProperty("--offset", -offcoord + "px");
 
-	if (document.documentElement.clientWidth > 1120) {
-		if(window.pageYOffset > 2500){
-			download.style.display = "none";
-		}
-		else if(window.pageYOffset > 2100){
-			download.style = "opacity: 0%; display:inherit;";
-		}
-		else{
-			download.style = "opacity: 100%; display:inherit;";
-		}
-	}
+	//if (document.documentElement.clientWidth > 1120) {
+	//	if(window.pageYOffset > 2500){
+	//		download.style.display = "none";
+	//	}
+	//	else if(window.pageYOffset > 2100){
+	//		download.style = "opacity: 0%; display:inherit;";
+	//	}
+	//	else{
+	//		download.style = "opacity: 100%; display:inherit;";
+	//	}
+	//}
 
-	offset = window.pageYOffset;
-        });
+	//offset = window.pageYOffset;
+        //});
         function search(){
             input = document.getElementById("search").value;
 			offset=9999999;
