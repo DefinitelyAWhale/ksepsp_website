@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "textures/entity/boat/vehicle.png",
+	"texture": "textures/entity/custom/raft.png",
 	"textureSize": [128, 128],
 	"models": [
 		{
@@ -188,8 +188,8 @@
 				{
 					"this.rx": 0,
 					"this.rz": 0,
-					"wheel_front.ry": "limb_swing*2",
-					"wheel_back.ry": "limb_swing*2",
+					"wheel_front.ry": "limb_swing/2",
+					"wheel_back.ry": "limb_swing/2",
 					"resurfacer.tz": "sin(1.5*time)/2-7.5"
 				}
 			]

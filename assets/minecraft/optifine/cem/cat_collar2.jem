@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "textures/entity/cat/hedgehog_collar.png",
+	"texture": "textures/entity/custom/cat_collar.png",
 	"textureSize": [32, 16],
 	"models": [
 		{

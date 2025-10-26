@@ -1,13 +1,18 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "textures/entity/armorstand/wood2.png",
 	"textureSize": [64, 64],
+	"texture": "textures/entity/custom/armor_stand.png",
 	"models": [
 		{
 			"part": "head",
 			"id": "head",
 			"invertAxis": "xy",
-			"translate": [0, -23, 0]
+			"translate": [0, -23, 0],
+			"animations": [
+				{
+					"head.visible": "false"
+				}
+			]
 		},
 		{
 			"part": "body",
