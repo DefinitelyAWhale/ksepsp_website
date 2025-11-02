@@ -141,6 +141,16 @@
 	.download-tab p{
 		padding: 0 0 0 0.5rem!important;
 	}
+	.download-tab-alt{
+		width:12rem!important;
+		margin:0.25rem 0 0.25rem 1rem!important;
+	}
+	.download-tab-alt a{
+		width:12rem!important;
+	}
+	.download-tab-alt p{
+		padding: 0 0 0 0.5rem!important;
+	}
 }
 @media (max-width: 1200px){
 	.download{
@@ -180,6 +190,24 @@
 		margin:0.25rem 0 0.25rem 1rem!important;
 	}
 	.download-tab p{
+		padding: 0 0 0 0.25rem!important;
+		line-height:inherit;
+	}
+	.download-tab-alt{
+		min-height:3rem!important;
+		width:9rem!important;
+		margin:0.25rem 0 0.25rem 1rem!important;
+	}
+	.download-tab-alt a{
+		width:9rem!important;
+	}
+	.download-tab-alt a:first-of-type{
+		min-height:3.5rem!important;
+	}
+	.download-tab-alt a:last-of-type{
+		min-height:2rem!important;
+	}
+	.download-tab-alt p{
 		padding: 0 0 0 0.25rem!important;
 		line-height:inherit;
 	}
@@ -316,6 +344,46 @@
 	color:white;
 	font-size:1.2rem;
 }
+.download-tab-alt{
+	box-shadow: 0px 0.2rem 0.3rem 0.2rem #2F3946;
+	margin:1rem 0 1rem 1rem;
+	width:15rem;
+	display:flex;
+	flex-direction: column
+}
+.download-tab-alt img{
+	width:2rem;
+	height:2rem;
+	padding:0.25rem 0.5rem;
+	border-left: 0.125rem solid #080b0f46;
+}
+.download-tab-alt p{
+	font-family: "Arial";
+	font-weight: bold;
+	color:white;
+	font-size:1.2rem;
+}
+.download-tab-alt a{
+	width:15rem;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	transition: background-color .1s;
+}
+.download-tab-alt a:last-of-type{
+	background-color: #6F3034;
+	box-shadow:inset 0rem 0.75rem 0.75rem #6F3034;
+}
+.download-tab-alt a:last-of-type:hover{
+	background-color: #6F3034;
+	box-shadow:inset 0rem 0.75rem 0.75rem #602A2E;
+}
+.download-tab-alt a:last-of-type p{
+	padding: 0.25rem 1rem;
+}
+.download-note-alt{
+	font-size:1rem!important;
+}
 .download-note{
 	font-size:1rem!important;
 	padding:0 1rem .25rem!important;
@@ -327,10 +395,10 @@
 	background-color: rgb(202, 65, 65, 0.75);
 }
 .download__ksepsp{
-	background-color: rgba(167, 61, 61, 0.75);
+	background-color: #8B4043;
 }
 .download__ksepsp:hover{
-	background-color: rgb(202, 65, 65, 0.75);
+	background-color: #A64347;
 }
 .download__pmc{
 	background-color: rgba(61, 167, 79, 0.75);
