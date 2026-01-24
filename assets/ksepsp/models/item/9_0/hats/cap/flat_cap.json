@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "ksepsp:item/flat_cap",
 		"particle": "ksepsp:item/flat_cap"
@@ -70,7 +72,7 @@
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
-			"translation": [0, 1, -2.01],
+			"translation": [0, 2, -2.01],
 			"scale": [2, 2, 2]
 		}
 	}

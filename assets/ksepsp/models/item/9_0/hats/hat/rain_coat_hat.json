@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 16],
 	"textures": {
 		"0": "ksepsp:item/rain_coat_hat",

@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "ksepsp:item/skateboard",
@@ -126,7 +128,7 @@
 			"rotation": [77.5, 0, 95],
 			"translation": [-5.5, -2, -0.5]
 		},
-		"thirdperson_righthand": {
+		"thirdperson_lefthand": {
 			"rotation": [77.5, 0, 95],
 			"translation": [-5.5, -2, -0.5]
 		},
@@ -142,7 +144,7 @@
 			"translation": [0, 5.5, 0]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
+			"rotation": [30, -135, 0],
 			"translation": [0, 2.25, 0],
 			"scale": [0.65, 0.65, 0.65]
 		},

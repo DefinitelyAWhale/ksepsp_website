@@ -654,27 +654,27 @@
 					"threshold": 1,
 					"model": {
 					"type": "minecraft:model",
-					"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravity_gun_pulling_0"
+					"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravitygun_pulling_0"
 					}
 				},
 				{
 					"threshold": 13,
 					"model": {
 					"type": "minecraft:model",
-					"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravity_gun_pulling_1"
+					"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravitygun_pulling_1"
 					}
 				},
 				{
 					"threshold": 18,
 					"model": {
 					"type": "minecraft:model",
-					"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravity_gun_pulling_2"
+					"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravitygun_pulling_2"
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravity_gun"
+				"model": "ksepsp:item/8_0/weapons/bow/electric_weapon/gravitygun"
 			}
 		}
 	},
@@ -713,26 +713,6 @@
 		}
 	},
 	{
-		"when": ["Luger Pistol", "Люгер"],
-		"model": {
-			"type": "minecraft:range_dispatch",
-			"property": "minecraft:use_duration",
-			"entries": [
-				{
-					"threshold": 1,
-					"model": {
-					"type": "minecraft:model",
-					"model": "ksepsp:item/8_0/weapons/bow/pistol/luger_pulling"
-					}
-				}
-			],
-			"fallback": {
-				"type": "minecraft:model",
-				"model": "ksepsp:item/8_0/weapons/bow/pistol/luger"
-			}
-		}
-	},
-	{
 		"when": ["Tactical Luger Pistol", "Тактический люгер"],
 		"model": {
 			"type": "minecraft:range_dispatch",
@@ -749,6 +729,26 @@
 			"fallback": {
 				"type": "minecraft:model",
 				"model": "ksepsp:item/8_0/weapons/bow/pistol/tact_luger"
+			}
+		}
+	},
+	{
+		"when": ["Luger Pistol", "Люгер"],
+		"model": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:use_duration",
+			"entries": [
+				{
+					"threshold": 1,
+					"model": {
+					"type": "minecraft:model",
+					"model": "ksepsp:item/8_0/weapons/bow/pistol/luger_pulling"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "ksepsp:item/8_0/weapons/bow/pistol/luger"
 			}
 		}
 	},

@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 16],
 	"textures": {
 		"0": "ksepsp:item/fedora",
@@ -20,7 +22,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [12, 13, 12]},
 			"faces": {
 				"north": {"uv": [4, 0, 8, 3], "texture": "#0"},
-				"east": {"uv": [4, 3, 8, 6], "texture": "#0"},
+				"east": {"uv": [8, 3, 4, 6], "texture": "#0"},
 				"south": {"uv": [4, 6, 8, 9], "texture": "#0"},
 				"west": {"uv": [4, 3, 8, 6], "texture": "#0"},
 				"up": {"uv": [0, 0, 4, 8], "rotation": 180, "texture": "#0"}

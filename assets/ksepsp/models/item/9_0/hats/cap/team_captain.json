@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 16],
 	"textures": {
 		"0": "ksepsp:item/team_captain",
@@ -83,7 +85,7 @@
 		},
 		"fixed": {
 			"rotation": [-80, 0, 0],
-			"translation": [0, -1.75, -4.75],
+			"translation": [0, 0.5, -4.75],
 			"scale": [2, 2, 2]
 		}
 	}

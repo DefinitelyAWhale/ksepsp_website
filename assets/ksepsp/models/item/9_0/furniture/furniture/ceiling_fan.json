@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "ksepsp:item/ceiling_fan",
@@ -8,6 +10,7 @@
 		{
 			"from": [5, 1, 5],
 			"to": [11, 3, 11],
+			"light_emission": 13,
 			"faces": {
 				"north": {"uv": [11, 0, 14, 1], "texture": "#0"},
 				"east": {"uv": [11, 0, 14, 1], "texture": "#0"},

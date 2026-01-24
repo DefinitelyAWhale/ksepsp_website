@@ -57,7 +57,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-10, 180, -15],
+			"rotation": [-10, -180, -15],
 			"translation": [-0.75, 1, -5]
 		},
 		"thirdperson_lefthand": {
@@ -81,7 +81,7 @@
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
-			"translation": [0, 7.35, 0],
+			"translation": [0, 7.6, 0],
 			"scale": [1.9, 1.9, 1.9]
 		},
 		"fixed": {
