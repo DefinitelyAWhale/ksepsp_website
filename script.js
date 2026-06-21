@@ -1,8 +1,22 @@
 //Смена языка
-        let lang = 0;
+		let lang = 0;
+		const langRu = document.querySelectorAll(".ru");
+        const langEn = document.querySelectorAll(".en");
+		var userLang = navigator.language || navigator.userLanguage; 
+		if (userLang === "kk"|| userLang === "uk"|| userLang === "ru"){
+			lang = 0;
+		} else {
+			for (var i = 0; i < langRu.length; i++ ) {
+                langRu[i].style.display = "none";
+            }
+            for (var i = 0; i < langEn.length; i++ ) {
+                langEn[i].style.display = "block";
+            }
+			lang = 1
+		}
+        
+
         document.getElementById("lang-change").onclick = function(){
-            const langRu = document.querySelectorAll(".ru");
-            const langEn = document.querySelectorAll(".en");
 			offset=9999999;
             switch(lang){
                 case 0:
